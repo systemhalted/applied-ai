@@ -1,0 +1,26 @@
+name: Check links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC — resource links rot
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --accept 200,201,204,301,302,303,308,403,429
+            --max-retries 2
+            --retry-wait-time 5
+            --timeout 30
+            "**/*.md"
+          fail: true

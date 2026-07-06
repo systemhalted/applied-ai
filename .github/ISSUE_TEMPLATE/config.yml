@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Curriculum questions & study partners
+    url: https://github.com/systemhalted/applied-ai/discussions
+    about: "How do I do Module 14?"-type questions and cohort-finding belong in Discussions, not issues.
+  - name: FAQ
+    url: https://github.com/systemhalted/applied-ai/blob/main/FAQ.md
+    about: Costs, pacing, skipping the math, compute, and getting help are already answered here.
