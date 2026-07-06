@@ -4,7 +4,7 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Modules](https://img.shields.io/badge/modules-28-orange.svg)
 
-> Learn AI the way Stanford teaches it — one course spine, a working build in every module, and honest pacing for people with jobs and lives.
+> From solid programming skills to hands-on AI engineering — one course spine, a working build in every module, and honest pacing for people with jobs and lives.
 
 Applied AI is a free, self-paced curriculum for going from solid programming skills to credible, hands-on AI engineering. It follows a single spine of world-class courses — **Imperial College mathematics + Stanford CS109 → Stanford CS229 → CS230 → CS224N or CS231n → a capstone system** — and requires you to build something real at every step. One cost caveat: the required Imperial College graded assignments sit behind Coursera's subscription; the [FAQ](FAQ.md) covers audit limits, financial aid, and a free substitute.
 
